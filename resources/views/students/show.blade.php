@@ -6,7 +6,7 @@
 <div class="container">
   <div class="row">
     <div class="col-7">
-      <h1 class="my-4" >Detail Mahasiwa</h1>
+      <h1 class="my-4" >Detail Data Mahasiwa</h1>
       <div class="card">
         <div class="card-body">
           <h5 class="display-3"><i class="fas fa-user text-secondary"></i></h5>
