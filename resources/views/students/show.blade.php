@@ -9,6 +9,7 @@
       <h1 class="my-4" >Detail Mahasiwa</h1>
       <div class="card">
         <div class="card-body">
+          <h5 class="display-3"><i class="fas fa-user text-secondary"></i></h5>
           <h5 class="card-title">{{$student->nama}}</h5>
           <h6 class="card-subtitle mb-2 text-muted">{{$student->nrp}}</h6>
           <p class="card-text">{{$student->email}}</p>
