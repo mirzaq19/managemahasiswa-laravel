@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/','PagesController@home');
+Route::get('/',function(){
+    return view('welcome');
+});
+Route::get('/home','PagesController@home')->name('home');
 Route::get('/about','PagesController@about');
 Route::get('/mahasiswa','MahasiswaController@index');
 
@@ -27,3 +30,6 @@ Route::get('/mahasiswa','MahasiswaController@index');
 // Route::get('/students/{student}/edit','StudentsController@edit');
 // Route::patch('/students/{student}','StudentsController@update');
 Route::resource('students','StudentsController');
+Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');
